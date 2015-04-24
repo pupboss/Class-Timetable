@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BCCDF904-B9A3-49BA-934B-99157F7C4B62</string>
 	<key>IDESourceControlProjectName</key>
-	<string>class-timetable</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>51513290FD3424B5E0D35F88734AA501F284DD1E</key>
 		<string>https://github.com/pupboss/class-timetable.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>class-timetable.xcodeproj</string>
+	<string>class-timetable.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>51513290FD3424B5E0D35F88734AA501F284DD1E</key>
