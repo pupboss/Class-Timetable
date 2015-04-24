@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>courses</key>
+	<dict>
+		<key>1-1</key>
+		<string>信号与系统
+1-15
+杨会玉
+尔雅楼402</string>
+		<key>1-2</key>
+		<string></string>
+		<key>1-3</key>
+		<string>数字电子技术基础
+3-15
+韩占岭
+尔雅楼201</string>
+		<key>1-4</key>
+		<string></string>
+		<key>1-5</key>
+		<string></string>
+		<key>2-1</key>
+		<string>电磁场与电磁波
+1-12
+徐维
+尔雅楼221</string>
+		<key>2-2</key>
+		<string>模拟电子技术基础
+2-15
+李季
+静远楼431</string>
+		<key>2-3</key>
+		<string></string>
+		<key>2-4</key>
+		<string></string>
+		<key>2-5</key>
+		<string></string>
+		<key>3-1</key>
+		<string>大学英语（4）
+1-18
+李游
+尔雅楼315</string>
+		<key>3-2</key>
+		<string>大学体育（4）
+2-17
+H体育部
+H室外</string>
+		<key>3-3</key>
+		<string>数字电子技术基础
+3-15
+韩占岭
+尔雅楼203</string>
+		<key>3-4</key>
+		<string></string>
+		<key>3-5</key>
+		<string></string>
+		<key>4-1</key>
+		<string>信号与系统
+1-15
+杨会玉
+静远楼419</string>
+		<key>4-2</key>
+		<string></string>
+		<key>4-3</key>
+		<string>模拟电子技术基础
+2-15
+李季
+尔雅楼208</string>
+		<key>4-4</key>
+		<string></string>
+		<key>4-5</key>
+		<string></string>
+		<key>5-1</key>
+		<string>电磁场与电磁波
+1-12
+徐维
+静远楼419</string>
+		<key>5-2</key>
+		<string>大学英语（4）
+1-18
+李游
+尔雅楼315</string>
+		<key>5-3</key>
+		<string></string>
+		<key>5-4</key>
+		<string></string>
+		<key>5-5</key>
+		<string></string>
+		<key>6-1</key>
+		<string>概率论与数理统计
+5-18
+林清水
+尔雅楼209</string>
+		<key>6-2</key>
+		<string>概率论与数理统计
+5-18
+林清水
+尔雅楼209</string>
+		<key>6-3</key>
+		<string></string>
+		<key>6-4</key>
+		<string>网络营销
+5-18
+万君
+耘慧楼209</string>
+		<key>6-5</key>
+		<string></string>
+		<key>7-1</key>
+		<string></string>
+		<key>7-2</key>
+		<string>英语媒体视听说
+5-18
+于洋
+耘慧楼206</string>
+		<key>7-3</key>
+		<string></string>
+		<key>7-4</key>
+		<string></string>
+		<key>7-5</key>
+		<string></string>
+	</dict>
+	<key>times</key>
+	<dict>
+		<key>1</key>
+		<string>08:00-08:45</string>
+		<key>10</key>
+		<string>19:20-20:05</string>
+		<key>2</key>
+		<string>08:50-09:35</string>
+		<key>3</key>
+		<string>09:55-10:40</string>
+		<key>4</key>
+		<string>10:45-11:30</string>
+		<key>5</key>
+		<string>13:30-14:15</string>
+		<key>6</key>
+		<string>14:20-15:05</string>
+		<key>7</key>
+		<string>15:25-16:10</string>
+		<key>8</key>
+		<string>16:15-17:00</string>
+		<key>9</key>
+		<string>18:30-19:15</string>
+	</dict>
+</dict>
+</plist>

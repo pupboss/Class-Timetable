@@ -39,41 +39,13 @@
 - (void)refreshData
 {
     [MBProgressHUD showMessage:@"正在获取中"];
-    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
-    if ([def objectForKey:USERNAMEKEY]) {
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
-        NSString *uName = [def objectForKey:USERNAMEKEY];
-        NSString *pwd = [def objectForKey:PWDKEY];
-        
-        NSDictionary *param = @{@"userId": uName,
-                                @"pwd": pwd,
-                                @"platform": @"ios",
-                                @"version": [LJDeviceTool getCurrentAppBuild],
-                                @"manufacturer": @"Apple",
-                                @"osVer": [NSString stringWithFormat:@"iOS%@",[LJDeviceTool getCurrentSystemVersion]],
-                                @"model": [LJDeviceTool getCurrentDeviceModel]};
-        
-        [LJHTTPTool postHTTPWithURL:@"http://lntuonline.pupboss.com/user/login" params:param success:^(id responseHTTP) {
-            
-            [LJHTTPTool getJSONWithURL:@"http://lntuonline.pupboss.com/curriculum/info" params:nil success:^(id responseJSON) {
-                
-                [MBProgressHUD hideHUD];
-                [self.schScrollView headerEndRefreshing];
-                
-                [LJFileTool writeToFileContent:responseJSON withFileName:scheduleFileName];
-                
-            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                [MBProgressHUD hideHUD];
-                [self.schScrollView headerEndRefreshing];
-                [MBProgressHUD showError:NULLSTR];
-            }];
-            
-        } failure:^(NSError *error) {
-            [MBProgressHUD hideHUD];
-            [self.schScrollView headerEndRefreshing];
-            [MBProgressHUD showError:NULLSTR];
-        }];
-    }
+        [MBProgressHUD hideHUD];
+        [MBProgressHUD showSuccess:@"刷新成功"];
+        [self.schScrollView headerEndRefreshing];
+    });
 }
 
 

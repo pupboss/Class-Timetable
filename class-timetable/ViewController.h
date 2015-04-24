@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)changeMode:(id)sender;
 
 @end
 
