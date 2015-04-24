@@ -1,5 +1,7 @@
 # Class Timetable Demo
 
+This project is heavily influenced by [iCarousel](https://github.com/nicklockwood/iCarousel) and [MJReFresh](https://github.com/CoderMJLee/MJRefresh).
+
 ## Requirements
 
 - iOS 7.0+
