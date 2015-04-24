@@ -49,6 +49,12 @@
 		D5380DF91AEA9F96004BCD90 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D5380DEE1AEA9F96004BCD90 /* AFURLRequestSerialization.m */; };
 		D5380DFA1AEA9F96004BCD90 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D5380DF01AEA9F96004BCD90 /* AFURLResponseSerialization.m */; };
 		D5380DFB1AEA9F96004BCD90 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5380DF21AEA9F96004BCD90 /* AFURLSessionManager.m */; };
+		D5380E061AEAA07F004BCD90 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5380E051AEAA07F004BCD90 /* InterfaceController.m */; };
+		D5380E081AEAA07F004BCD90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5380E071AEAA07F004BCD90 /* Images.xcassets */; };
+		D5380E0C1AEAA07F004BCD90 /* class-timetable WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D5380E0B1AEAA07F004BCD90 /* class-timetable WatchKit App.app */; };
+		D5380E141AEAA07F004BCD90 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5380E121AEAA07F004BCD90 /* Interface.storyboard */; };
+		D5380E161AEAA07F004BCD90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5380E151AEAA07F004BCD90 /* Images.xcassets */; };
+		D5380E191AEAA07F004BCD90 /* class-timetable WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D5380E001AEAA07F004BCD90 /* class-timetable WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +65,35 @@
 			remoteGlobalIDString = D5380D641AEA99F6004BCD90;
 			remoteInfo = "class-timetable";
 		};
+		D5380E0D1AEAA07F004BCD90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5380D5D1AEA99F6004BCD90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5380E0A1AEAA07F004BCD90;
+			remoteInfo = "class-timetable WatchKit App";
+		};
+		D5380E171AEAA07F004BCD90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5380D5D1AEA99F6004BCD90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5380DFF1AEAA07F004BCD90;
+			remoteInfo = "class-timetable WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5380E201AEAA07F004BCD90 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5380E191AEAA07F004BCD90 /* class-timetable WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D5380D651AEA99F6004BCD90 /* class-timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "class-timetable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +176,15 @@
 		D5380DF01AEA9F96004BCD90 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		D5380DF11AEA9F96004BCD90 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		D5380DF21AEA9F96004BCD90 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		D5380E001AEAA07F004BCD90 /* class-timetable WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "class-timetable WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5380E031AEAA07F004BCD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5380E041AEAA07F004BCD90 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		D5380E051AEAA07F004BCD90 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		D5380E071AEAA07F004BCD90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5380E0B1AEAA07F004BCD90 /* class-timetable WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "class-timetable WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5380E111AEAA07F004BCD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5380E131AEAA07F004BCD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D5380E151AEAA07F004BCD90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +203,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5380DFD1AEAA07F004BCD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -168,6 +218,8 @@
 			children = (
 				D5380D671AEA99F6004BCD90 /* class-timetable */,
 				D5380D811AEA99F6004BCD90 /* class-timetableTests */,
+				D5380E011AEAA07F004BCD90 /* class-timetable WatchKit Extension */,
+				D5380E0F1AEAA07F004BCD90 /* class-timetable WatchKit App */,
 				D5380D661AEA99F6004BCD90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -177,6 +229,8 @@
 			children = (
 				D5380D651AEA99F6004BCD90 /* class-timetable.app */,
 				D5380D7E1AEA99F6004BCD90 /* class-timetableTests.xctest */,
+				D5380E001AEAA07F004BCD90 /* class-timetable WatchKit Extension.appex */,
+				D5380E0B1AEAA07F004BCD90 /* class-timetable WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -353,6 +407,43 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		D5380E011AEAA07F004BCD90 /* class-timetable WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5380E041AEAA07F004BCD90 /* InterfaceController.h */,
+				D5380E051AEAA07F004BCD90 /* InterfaceController.m */,
+				D5380E071AEAA07F004BCD90 /* Images.xcassets */,
+				D5380E021AEAA07F004BCD90 /* Supporting Files */,
+			);
+			path = "class-timetable WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D5380E021AEAA07F004BCD90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5380E031AEAA07F004BCD90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5380E0F1AEAA07F004BCD90 /* class-timetable WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D5380E121AEAA07F004BCD90 /* Interface.storyboard */,
+				D5380E151AEAA07F004BCD90 /* Images.xcassets */,
+				D5380E101AEAA07F004BCD90 /* Supporting Files */,
+			);
+			path = "class-timetable WatchKit App";
+			sourceTree = "<group>";
+		};
+		D5380E101AEAA07F004BCD90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5380E111AEAA07F004BCD90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -363,10 +454,12 @@
 				D5380D611AEA99F6004BCD90 /* Sources */,
 				D5380D621AEA99F6004BCD90 /* Frameworks */,
 				D5380D631AEA99F6004BCD90 /* Resources */,
+				D5380E201AEAA07F004BCD90 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D5380E181AEAA07F004BCD90 /* PBXTargetDependency */,
 			);
 			name = "class-timetable";
 			productName = "class-timetable";
@@ -391,6 +484,39 @@
 			productReference = D5380D7E1AEA99F6004BCD90 /* class-timetableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D5380DFF1AEAA07F004BCD90 /* class-timetable WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5380E1D1AEAA07F004BCD90 /* Build configuration list for PBXNativeTarget "class-timetable WatchKit Extension" */;
+			buildPhases = (
+				D5380DFC1AEAA07F004BCD90 /* Sources */,
+				D5380DFD1AEAA07F004BCD90 /* Frameworks */,
+				D5380DFE1AEAA07F004BCD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5380E0E1AEAA07F004BCD90 /* PBXTargetDependency */,
+			);
+			name = "class-timetable WatchKit Extension";
+			productName = "class-timetable WatchKit Extension";
+			productReference = D5380E001AEAA07F004BCD90 /* class-timetable WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D5380E0A1AEAA07F004BCD90 /* class-timetable WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5380E1A1AEAA07F004BCD90 /* Build configuration list for PBXNativeTarget "class-timetable WatchKit App" */;
+			buildPhases = (
+				D5380E091AEAA07F004BCD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "class-timetable WatchKit App";
+			productName = "class-timetable WatchKit App";
+			productReference = D5380E0B1AEAA07F004BCD90 /* class-timetable WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -406,6 +532,12 @@
 					D5380D7D1AEA99F6004BCD90 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = D5380D641AEA99F6004BCD90;
+					};
+					D5380DFF1AEAA07F004BCD90 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D5380E0A1AEAA07F004BCD90 = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -424,6 +556,8 @@
 			targets = (
 				D5380D641AEA99F6004BCD90 /* class-timetable */,
 				D5380D7D1AEA99F6004BCD90 /* class-timetableTests */,
+				D5380DFF1AEAA07F004BCD90 /* class-timetable WatchKit Extension */,
+				D5380E0A1AEAA07F004BCD90 /* class-timetable WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -449,6 +583,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5380DFE1AEAA07F004BCD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5380E0C1AEAA07F004BCD90 /* class-timetable WatchKit App.app in Resources */,
+				D5380E081AEAA07F004BCD90 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5380E091AEAA07F004BCD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5380E141AEAA07F004BCD90 /* Interface.storyboard in Resources */,
+				D5380E161AEAA07F004BCD90 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +653,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5380DFC1AEAA07F004BCD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5380E061AEAA07F004BCD90 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -508,6 +668,16 @@
 			isa = PBXTargetDependency;
 			target = D5380D641AEA99F6004BCD90 /* class-timetable */;
 			targetProxy = D5380D7F1AEA99F6004BCD90 /* PBXContainerItemProxy */;
+		};
+		D5380E0E1AEAA07F004BCD90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5380E0A1AEAA07F004BCD90 /* class-timetable WatchKit App */;
+			targetProxy = D5380E0D1AEAA07F004BCD90 /* PBXContainerItemProxy */;
+		};
+		D5380E181AEAA07F004BCD90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5380DFF1AEAA07F004BCD90 /* class-timetable WatchKit Extension */;
+			targetProxy = D5380E171AEAA07F004BCD90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,6 +696,14 @@
 				D5380D781AEA99F6004BCD90 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D5380E121AEAA07F004BCD90 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5380E131AEAA07F004BCD90 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -667,6 +845,64 @@
 			};
 			name = Release;
 		};
+		D5380E1B1AEAA07F004BCD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = class_timetable_WatchKit_Extension;
+				INFOPLIST_FILE = "class-timetable WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D5380E1C1AEAA07F004BCD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = class_timetable_WatchKit_Extension;
+				INFOPLIST_FILE = "class-timetable WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D5380E1E1AEAA07F004BCD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "class-timetable WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D5380E1F1AEAA07F004BCD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "class-timetable WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,6 +928,22 @@
 			buildConfigurations = (
 				D5380D8C1AEA99F6004BCD90 /* Debug */,
 				D5380D8D1AEA99F6004BCD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5380E1A1AEAA07F004BCD90 /* Build configuration list for PBXNativeTarget "class-timetable WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5380E1B1AEAA07F004BCD90 /* Debug */,
+				D5380E1C1AEAA07F004BCD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5380E1D1AEAA07F004BCD90 /* Build configuration list for PBXNativeTarget "class-timetable WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5380E1E1AEAA07F004BCD90 /* Debug */,
+				D5380E1F1AEAA07F004BCD90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

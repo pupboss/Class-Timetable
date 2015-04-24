@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+@import WatchKit;
+#import "LJTools.h"
 
 @interface AppDelegate ()
 
@@ -40,6 +42,43 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply {
+    
+    NSInteger day = [LJTimeTool getCurrentWeekDay] - 1;
+    if (day == 0) {
+        day =7;
+    }
+    
+    NSInteger classNum = [LJTimeTool getCurrentClass];
+    
+    if (classNum == 6) {
+        reply(@{@"course": @"洗洗睡吧~"});
+    }
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"courses.plist" ofType:nil];;
+    
+    NSString *key = [NSString stringWithFormat:@"%d-%d", day, classNum];
+    
+    NSFileManager *mgr = [NSFileManager defaultManager];
+    
+    if ([mgr fileExistsAtPath:filePath]) {
+        NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:filePath];
+        
+        NSDictionary *courses = dict[@"courses"];
+        NSString *course = [courses[key] componentsSeparatedByString:@"\n"][0];
+        
+        if ([course isEqualToString:@""]) {
+            
+            reply(@{@"course": @"下节没课~"});
+        } else {
+            reply(@{@"course": course});
+        }
+        
+    } else {
+        reply(@{@"course": @"error"});
+    }
 }
 
 @end
