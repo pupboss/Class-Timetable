@@ -7,6 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "MJRefresh.h"
+#import "iCarousel.h"
+#import "DayClassTableViewCell.h"
+#import "NightClassTableViewCell.h"
+#import "DayCourse.h"
+#import "OldClassTableView.h"
 
 @interface ViewController ()
 
