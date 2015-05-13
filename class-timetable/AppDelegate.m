@@ -67,9 +67,10 @@
         NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:filePath];
         
         NSDictionary *courses = dict[@"courses"];
-        NSString *course = [courses[key] componentsSeparatedByString:@"\n"][0];
+        NSArray *tempArr = [courses[key] componentsSeparatedByString:@"\n"];
+        NSString *course = [NSString stringWithFormat:@"%@\n%@", tempArr[0], tempArr[3]];
         
-        if ([course isEqualToString:@""]) {
+        if ([course isEqualToString:@"\n"]) {
             
             reply(@{@"course": @"下节没课~"});
         } else {
