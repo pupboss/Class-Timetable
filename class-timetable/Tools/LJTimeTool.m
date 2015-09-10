@@ -33,7 +33,7 @@
 {
     NSDate *now = [NSDate date];
     NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSUInteger unitFlags = NSYearCalendarUnit;
+    NSUInteger unitFlags = NSCalendarUnitYear;
     NSDateComponents *dateComponent = [calendar components:unitFlags fromDate:now];
     
     return [dateComponent year];
@@ -53,7 +53,7 @@
 {
     NSDate *now = [NSDate date];
     NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSUInteger unitFlags = NSHourCalendarUnit;
+    NSUInteger unitFlags = NSCalendarUnitHour;
     NSDateComponents *dateComponent = [calendar components:unitFlags fromDate:now];
     
     long hour = [dateComponent hour];
@@ -77,7 +77,7 @@
     
     NSDate *now = [NSDate date];
     NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSUInteger unitFlags = NSHourCalendarUnit;
+    NSUInteger unitFlags = NSCalendarUnitHour;
     NSDateComponents *dateComponent = [calendar components:unitFlags fromDate:now];
     
     long hour = [dateComponent hour];

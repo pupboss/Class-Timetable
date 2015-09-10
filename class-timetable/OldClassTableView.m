@@ -2,7 +2,7 @@
 //  OldClassTableView.m
 //  eduadmin
 //
-//  Created by JieLee on 4/22/15.
+//  Created by Li Jie on 4/22/15.
 //  Copyright (c) 2015 PUPBOSS. All rights reserved.
 //
 
@@ -53,189 +53,81 @@
     
     NSDictionary *courses = dict[@"courses"];
     
-    if ([courses[@"1-1"] isEqualToString:@""]) {
-        self.s1_1.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s1_1.text = courses[@"1-1"];
-    }
-    if ([courses[@"1-2"] isEqualToString:@""]) {
-        self.s1_2.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s1_2.text = courses[@"1-2"];
-    }
-    if ([courses[@"1-3"] isEqualToString:@""]) {
-        self.s1_3.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s1_3.text = courses[@"1-3"];
-    }
-    if ([courses[@"1-4"] isEqualToString:@""]) {
-        self.s1_4.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s1_4.text = courses[@"1-4"];
-    }
-    if ([courses[@"1-5"] isEqualToString:@""]) {
-        self.s1_5.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s1_5.text = courses[@"1-5"];
-    }
+    self.s1_1.text = courses[@"1-1"];
+    
+    self.s1_2.text = courses[@"1-2"];
+    
+    self.s1_3.text = courses[@"1-3"];
+    
+    self.s1_4.text = courses[@"1-4"];
+    
+    self.s1_5.text = courses[@"1-5"];
     
     
-    if ([courses[@"2-1"] isEqualToString:@""]) {
-        self.s2_1.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s2_1.text = courses[@"2-1"];
-    }
-    if ([courses[@"2-2"] isEqualToString:@""]) {
-        self.s2_2.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s2_2.text = courses[@"2-2"];
-    }
-    if ([courses[@"2-3"] isEqualToString:@""]) {
-        self.s2_3.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s2_3.text = courses[@"2-3"];
-    }
-    if ([courses[@"2-4"] isEqualToString:@""]) {
-        self.s2_4.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s2_4.text = courses[@"2-4"];
-    }
-    if ([courses[@"2-5"] isEqualToString:@""]) {
-        self.s2_5.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s2_5.text = courses[@"2-5"];
-    }
+    self.s2_1.text = courses[@"2-1"];
+    
+    self.s2_2.text = courses[@"2-2"];
+    
+    self.s2_3.text = courses[@"2-3"];
+    
+    self.s2_4.text = courses[@"2-4"];
+    
+    self.s2_5.text = courses[@"2-5"];
     
     
-    if ([courses[@"3-1"] isEqualToString:@""]) {
-        self.s3_1.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s3_1.text = courses[@"3-1"];
-    }
-    if ([courses[@"3-2"] isEqualToString:@""]) {
-        self.s3_2.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s3_2.text = courses[@"3-2"];
-    }
-    if ([courses[@"3-3"] isEqualToString:@""]) {
-        self.s3_3.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s3_3.text = courses[@"3-3"];
-    }
-    if ([courses[@"3-4"] isEqualToString:@""]) {
-        self.s3_4.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s3_4.text = courses[@"3-4"];
-    }
-    if ([courses[@"3-5"] isEqualToString:@""]) {
-        self.s3_5.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s3_5.text = courses[@"3-5"];
-    }
+    self.s3_1.text = courses[@"3-1"];
     
-    if ([courses[@"4-1"] isEqualToString:@""]) {
-        self.s4_1.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s4_1.text = courses[@"4-1"];
-    }
-    if ([courses[@"4-2"] isEqualToString:@""]) {
-        self.s4_2.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s4_2.text = courses[@"4-2"];
-    }
-    if ([courses[@"4-3"] isEqualToString:@""]) {
-        self.s4_3.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s4_3.text = courses[@"4-3"];
-    }
-    if ([courses[@"4-4"] isEqualToString:@""]) {
-        self.s4_4.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s4_4.text = courses[@"4-4"];
-    }
-    if ([courses[@"4-5"] isEqualToString:@""]) {
-        self.s4_5.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s4_5.text = courses[@"4-5"];
-    }
+    self.s3_2.text = courses[@"3-2"];
     
-    if ([courses[@"5-1"] isEqualToString:@""]) {
-        self.s5_1.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s5_1.text = courses[@"5-1"];
-    }
-    if ([courses[@"5-2"] isEqualToString:@""]) {
-        self.s5_2.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s5_2.text = courses[@"5-2"];
-    }
-    if ([courses[@"5-3"] isEqualToString:@""]) {
-        self.s5_3.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s5_3.text = courses[@"5-3"];
-    }
-    if ([courses[@"5-4"] isEqualToString:@""]) {
-        self.s5_4.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s5_4.text = courses[@"5-4"];
-    }
-    if ([courses[@"5-5"] isEqualToString:@""]) {
-        self.s5_5.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s5_5.text = courses[@"5-5"];
-    }
+    self.s3_3.text = courses[@"3-3"];
     
-    if ([courses[@"6-1"] isEqualToString:@""]) {
-        self.s6_1.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s6_1.text = courses[@"6-1"];
-    }
-    if ([courses[@"6-2"] isEqualToString:@""]) {
-        self.s6_2.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s6_2.text = courses[@"6-2"];
-    }
-    if ([courses[@"6-3"] isEqualToString:@""]) {
-        self.s6_3.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s6_3.text = courses[@"6-3"];
-    }
-    if ([courses[@"6-4"] isEqualToString:@""]) {
-        self.s6_4.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s6_4.text = courses[@"6-4"];
-    }
-    if ([courses[@"6-5"] isEqualToString:@""]) {
-        self.s6_5.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s6_5.text = courses[@"6-5"];
-    }
+    self.s3_4.text = courses[@"3-4"];
     
-    if ([courses[@"7-1"] isEqualToString:@""]) {
-        self.s7_1.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s7_1.text = courses[@"7-1"];
-    }
-    if ([courses[@"7-2"] isEqualToString:@""]) {
-        self.s7_2.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s7_2.text = courses[@"7-2"];
-    }
-    if ([courses[@"7-3"] isEqualToString:@""]) {
-        self.s7_3.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s7_3.text = courses[@"7-3"];
-    }
-    if ([courses[@"7-4"] isEqualToString:@""]) {
-        self.s7_4.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s7_4.text = courses[@"7-4"];
-    }
-    if ([courses[@"7-5"] isEqualToString:@""]) {
-        self.s7_5.backgroundColor = [UIColor whiteColor];
-    }else{
-        self.s7_5.text = courses[@"7-5"];
-    }
+    self.s3_5.text = courses[@"3-5"];
+    
+    
+    self.s4_1.text = courses[@"4-1"];
+    
+    self.s4_2.text = courses[@"4-2"];
+    
+    self.s4_3.text = courses[@"4-3"];
+    
+    self.s4_4.text = courses[@"4-4"];
+    
+    self.s4_5.text = courses[@"4-5"];
+    
+    
+    self.s5_1.text = courses[@"5-1"];
+    
+    self.s5_2.text = courses[@"5-2"];
+    
+    self.s5_3.text = courses[@"5-3"];
+    
+    self.s5_4.text = courses[@"5-4"];
+    
+    self.s5_5.text = courses[@"5-5"];
+    
+    
+    self.s6_1.text = courses[@"6-1"];
+    
+    self.s6_2.text = courses[@"6-2"];
+    
+    self.s6_3.text = courses[@"6-3"];
+    
+    self.s6_4.text = courses[@"6-4"];
+    
+    self.s6_5.text = courses[@"6-5"];
+    
+    
+    self.s7_1.text = courses[@"7-1"];
+    
+    self.s7_2.text = courses[@"7-2"];
+    
+    self.s7_3.text = courses[@"7-3"];
+    
+    self.s7_4.text = courses[@"7-4"];
+    
+    self.s7_5.text = courses[@"7-5"];
 }
 
 + (instancetype)newOldClassTable {

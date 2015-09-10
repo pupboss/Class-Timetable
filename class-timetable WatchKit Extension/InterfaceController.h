@@ -2,7 +2,7 @@
 //  InterfaceController.h
 //  class-timetable WatchKit Extension
 //
-//  Created by JieLee on 4/25/15.
+//  Created by Li Jie on 4/25/15.
 //  Copyright (c) 2015 PUPBOSS. All rights reserved.
 //
 
