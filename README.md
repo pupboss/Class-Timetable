@@ -4,16 +4,17 @@ This project is heavily influenced by [iCarousel](https://github.com/nicklockwoo
 
 ## Requirements
 
-- iOS 7.0+
+- iOS 7.0
 - Xcode 6
 
 ## Feature
 
-* can show both daily or weekly course.
-* can work in with Apple Watch.
+* show both daily or weekly course.
+* working in with Apple Watch.
 
 ## Licence
 
+```
 The MIT License (MIT)
 
 Copyright (c) 2015 PUPBOSS
@@ -35,6 +36,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
 ---
 
@@ -50,6 +52,7 @@ SOFTWARE.
 
 ## 协议
 
+```
 The MIT License (MIT)
 
 Copyright (c) 2015 PUPBOSS
@@ -71,6 +74,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
 实现方法直接看代码就行了~~
 
